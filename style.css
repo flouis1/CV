@@ -1,0 +1,35 @@
+/*This documment has been created on vim with emmet.vim plugin*/
+body
+{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+/*	margin: 0px 200px;*/
+}
+
+.no_marging
+{
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+}
+.cont
+{
+	display: inline-block;
+	margin-left: 50px;
+	vertical-align: top;
+}
+
+h1
+{
+/*	line-height:10px;*/
+}
+h2
+{
+	color: silver;
+}
+
+.text_in_igray
+{
+	font-style:italic;
+	color: gray;
+}
+
