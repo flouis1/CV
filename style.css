@@ -1,35 +1,129 @@
-/*This documment has been created on vim with emmet.vim plugin*/
-body
-{
+strong{
+	font-size: 26px;
+}
+
+h2{
+	font-size: 26px;
+	color : #3388BB;
+	text-transform : uppercase;
+	border-bottom : 3px dashed;
+}
+
+.page{
+	width: 780px;
+	margin: 10px;
+	font-size: 16px;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
-/*	margin: 0px 200px;*/
+	padding: 40px;
 }
 
-.no_marging
-{
+.infophoto{
 	display: inline-block;
-	float: left;
-	vertical-align: top;
+	height:200px;
 }
-.cont
-{
-	display: inline-block;
+
+.info{
+	float: right;
 	margin-left: 50px;
-	vertical-align: top;
 }
 
-h1
-{
-/*	line-height:10px;*/
-}
-h2
-{
-	color: silver;
+.photo{
+	float: left;
 }
 
-.text_in_igray
-{
-	font-style:italic;
-	color: gray;
+
+.section{
+	margin-bottom: 70px;
+}
+
+.section ul{
+	font-style: oblique;
+}
+
+.school {
+	Font-Weight:bold;
+	font-style: oblique;
+	color: grey;
+	font-size: 10px;
+}
+
+.sec-droite{
+	margin-left: 100px;
+}
+
+.sec-droite li{
+	list-style-type: none;
+}
+
+.sec-droite li:before{
+	content: '-';
+	font-weight: bold;
+	color : grey;
+	height: 100px;	
+}
+
+.titre{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.products{
+	font-style: oblique;
+	color: grey;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.hobbies_pics{
+	margin-left: 100px;
+	display: inline-block;
+}
+
+.licence{
+	font-size:10px;
+	margin-left: 180px;
+}
+
+.skills{
+	margin-bottom: 20px;
+}
+
+.skills ul {
+	display: inline-block;
+}
+
+.skills li {
+	list-style-type: none;
+	Font-Weight:bold;
+}
+
+.skills li:before {
+	content: " ";
+	height:100px;	
+}
+
+.skill[data-rating="5"]:after {
+	content: ' \2605'' \2605'' \2605'' \2605'' \2605';
+	color : #3388BB;
+}
+
+.skill[data-rating="4"]:after {
+	content: ' \2605'' \2605'' \2605'' \2605'' \2606';
+	color : #3388BB;
+}
+
+.skill[data-rating="3"]:after {
+	content: ' \2605'' \2605'' \2605'' \2606'' \2606';
+	color : #3388BB;
+}
+
+.skill[data-rating="2"]:after {
+	content: ' \2605'' \2605'' \2606'' \2606'' \2606';
+	color : #3388BB;
+}
+
+.skill[data-rating="1"]:after {
+	content: ' \2605'' \2606'' \2606'' \2606'' \2606';
+	color : #3388BB;
 }
 

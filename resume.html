@@ -1,78 +1,144 @@
-<!--This documment has been created on vim with emmet.vim plugin -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css" />
-</head>
-<header>
-	<!-- First part-->
-	<h1>LOUIS Fabien</h1>
-	<h2>System integrator </h2>
-	<!--main_info-->
 
-	<p class="no_marging"> 3 rue José Cabanis <br>
-	31240, SAINT-JEAN<br>
-	Phone: +33 659 076 604<br>
-	Mail: flouis666@gmail.com<br>
-	Linkedin: https://www.linkedin.com/in/flouis1/<br>
-	Github: https://github.com/flouis1</p>
+<html lang="eng">
+	<head>
+		<meta charset="UTF-8">
+		<!-- Import css stylesheet-->
+		<link rel="stylesheet" href="style.css">
+		<!-- Use Front Awsome Icons-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Change hyperlink color -->
+		<body link="#3388BB">
+		<title> RESUME Fabien</title>
+	</head>
 
-</header>
+	<body>
+		<div class="page">
+			<div class="infophoto">
+				<div class="info">
+					<p><strong>LOUIS Fabien</strong>
+					<p><h3>System Integrator</h3>
+					<i class="material-icons" style="font-size:20px;color:grey">location_on</i> 3 rue José Cabanis 31240, SAINT-JEAN<br>
+					<i class="material-icons" style="font-size:20px;color:grey">contact_phone</i> +33 659 076 604<br>
+					<i class="material-icons" style="font-size:20px;color:grey">contact_mail</i> <a href="mailto:flouis666@gmail.com">flouis666@gmail.com</a><br>
+					<i class="fa fa-linkedin-square" style="font-size:20px;color:grey"></i> <a href="https://www.linkedin.com/in/flouis1">https://www.linkedin.com/in/flouis1</a><br>
+					<i class="fa fa-github" style="font-size:20px;color:grey"></i> <a href="https://github.com/flouis1">https://github.com/flouis1</a></p>
+				</div>
+				<div class="photo">
+					<img src=pics/photo1.png width="200px" height="200px" alt="photo_1"/>
+				</div>
+			</div>
+			
+			<div class="Profile">
+				<h2><i class="material-icons" style="font-size:30px;color:#3388BB">person</i> Profile</h2>
+				<div class="sec-gauche">
+					<p> I am a 30 years old system integrator, specialized in Android/Linux Customization and Porting <br >to embedded and mobile systems,
+					and continious integration.</p>
+				</div>
+			</div>
+			<div class="section">
+				<h2><i class="material-icons" style="font-size:30px;color:#3388BB">school</i> Education</h2>
+				<div class="sec-droite">
+					<i class="titre"> Master 2: 
+					<a href="http://homepages.laas.fr/gibs/iup-isme/F_debouches.html">ISME</a>
+					Ingénierie des Systèmes microsystèmes embarqués, 2011</i>
+					<p class="school">Université Paul Sabatier (Toulouse III)</p><br>
+					<i class="titre"> BTS: Brevet de technicien supérieur,systèmes électroniques, 2007</i>
+					<p class="school">Lycée Polyvalent de BAIMBRIDGE</p>
+				</div>
+			</div>
+			<div class="section">
+				<h2><i class="material-icons" style="font-size:30px;color:#3388BB">work</i> Experience</h2>
+				<div class="sec-droite">
+					<p class="titre"> System integrator (freelance) at Dreamteam portage (2017 - Current)
+						<ul>
+							<li> Android O porting on x86 devices (effort estimation, First boot to UI, integration Strategy)</li>
+							<li> Code review (Kernel & BSP maintainer team)</li>
+							<li> Support CI teams (jenkins, Git, Android build system)</li>
+							<li> Support Release Management teams</li>
+							<li> Follow google QA test campaigns (CTS, WTS, CTS-Verifier, WTS-Verifier)</li>
+							<li> Build system team lead (New Feature integration & Bug fixing)</li>
+							<li> Bug fixing (AOSP, BSP, Kernel)</li>
+							<p class="products">Shipped products: Fossil Q, New balance RunIQ, Tag heuer connected, Tag heuer connected Modular 45</p>
+						</ul></p>
+					
+					<p class="titre">System integrator at INTEL on behalf of CELAD at Intel Corporation
+						<ul>
+							<li> Android 2.0 porting on x86 watches (First boot to UI) Fix build issues (kernel, AOSP, BSP, GIT)</li>
+							<li> Code review (Kernel & BSP maintainer team)</li>
+							<li> Follow google QA test campaigns (CTS, WTS, CTS-Verifier, WTS-Verifier)</li>
+							<li> Backport linux kernel Upstream security fixes (kernel 4.4 and 3.10)</li>
+							<p class="products">Shipped products: Fossil Q, New balance RunIQ, Tag heuer connected</p>
+						</ul></p>
 
-<body>
-	<section class="cont">
-	<h3>EDUCATION</h3>
-
-	<p>Master 2: ISME Ingénierie des Systèmes microsystèmes embarqués, 2011<br>
-	BTS: Brevet de technicien supérieur,systèmes électroniques, 2007</p>
-	
-	<h3>EXPERIENCE</h3>
-
-	<h4>Test Lead:New Device Group at INTEL Freelance</h4>
-	<p>Responsible of android Wear quality acceptance validation team inside New Device Groupe:</p>
-	<ul>
-		<li>Test campaign planification (Management of Priorities Depending on program needs)</li>
-		<li>Do the first analisys on bugs</li>
-		<li>Follow stability of targets</li>
-		<li>Ensure integration activities</li>
-	</ul>
-	<p class="text_in_igray">Main products: Fossil Q, New balance RunIQ, Tag heuer connected, Tag heuer connected Modular 45</p>
-	<h4>System integrator: New Device Group division at INTEL on behalf of CELAD,2016</h4>
-	<ul>
-		<li>New devices and new version of android integration(BSP,AOSP)</li>
-		<li>kernel Integration (3.18 & 4.4)</li>
-		<li>Build mechanisme and new branches integration</li>
-		<li>Backport linux kernel Upstream security fixes (4.4 & 3.10)</li>
-		<li>Fix build issues</li>
-		<li>Code review</li>
-	</ul>
-	<p class="text_in_igray"> Main products: Fossil Q, New balance RunIQ, Tag heuer connected</p>
-	<h4>System integrator: Devops team at INTEL on behalf of CELAD,2016</h4>
-	<ul>	
-		<li>New devices and new version of android integration(BSP,AOSP)</li>
-		<li>Enable android on Pre-silicon (SOC Simulation)</li>
-		<li>Create an automation bench for Pre-silicon builds</li>
-		<li>Build mechanisme and new branches integration</li>
-		<li>Fix build issues</li>
-		<li>Code review</li>
-	</ul>
-	<p class="text_in_igray">Main products: Asus Zenphone 2, Intel Sofia (Pre-silicon)</p>
-	<h4> Daily Debugger: Test-House team at INTEL on behalf of CELAD,2014</h4>
-	<ul>
-		<li>Follow tests campaigns</li>
-		<li>Analyze bugs (Hardware, AOSP, BSP, Kernel)</li>
-		<li>Follow tickets (Bugzilla, JIRA)</li>
-	</ul>
-	
-	<h4> specification engineer:Communication Architecture & Datalink group (EYAC1) at AIRBUS on behalf of CELAD,2011</h4>
-	<ul>	
-		<li>Write, support and validate system specifications</li>
-		<li>Specify division of activities between Airbus and the equipment manufacturer</li>
-		<li>Write test specifications</li>
-		<li>Write operating instructions</li>
-	</ul>
-	<p class="text_in_igray">Main products: A320, A340</p>
-	</section>
-</body>
+					<p class="titre">Devops at INTEL on behalf of CELAD at Intel Corporation
+						<ul>
+							<li> Enable android on Pre-silicon (SOC Simulation)</li>
+							<Li> Android Porting to new embedded systems (Mobile & Car)</li>
+							<li> Create automation bench for Pre-silicon builds</li>
+							<li> Build mechanisme and new branches integration (git, gerrit, buildbot)</li>
+							<li> Fix build issues (AOSP, BSP)</li>
+							<li> Code review (platform maintainer)</li>
+							<p class="products">Shipped products: Broxton (mobile/automotive), SoFIA</p>
+						</ul></p>
+					<p class="titre">Validation engineer at INTEL on behalf of CELAD
+						<ul>
+							<li> Follow tests campaings</li>
+							<li> Analyze bugs (Hardware, AOSP, BSP, Kernel)</li>
+							<li> Follow tickets (Bugzilla, JIRA)</li>
+							<p class="products">Shipped products: ASUS Zenphone2</p>
+						</ul></p>
+					<p class="titre">Specification engineer: Safran Engineering Services on behalf of CELAD
+						<ul>
+							<li> Write, support and validate system specifications</li>
+							<li> Specify division of activities between Airbus and the equipment manufacturer</li>
+							<li> Write test specifications</li>
+							<li> Write operating instructions</li>
+							<p class="products">Realeses Shipped in products: A320, A340</p>
+						</ul></p>
+				</div>
+			</div>
+			<div class="skills">
+				<h2><i class="fa fa-pie-chart" style="font-size:30px;color:#3388BB"></i> Skills</h2>
+				<div class="sec-droite">
+					<ul class="un">
+						<li>C<br><p class="skill C" data-rating="3"></p></li>
+						<li>C++<br><p class="skill C++" data-rating="2"></p></li>
+						<li>Java<br><p class="skill Java" data-rating="3"></p></li>
+					</ul>	
+					<ul class="deux">
+						<li>Go<br><p class="skill Go" data-rating="1"></p></li>
+						<li>Python<br><p class="skill Python" data-rating="3"></p></li>
+						<li>Makefile<br><p class="skill Makefile" data-rating="5"></p></li>
+					</ul>
+					<ul class="trois">
+						<li>Git<br><p class="skill Git" data-rating="4"></p></li>
+						<li>Gerrit<br><p class="skill Gerrit" data-rating="3"></p></li>
+						<li>Jira<br><p class="skill JIRA" data-rating="4"></p></li>
+					</ul>
+					<ul class="quatre">
+						<li>Jenkins<br><p class="skill Jenkins" data-rating="3"></p></li>
+						<li>Linux<br><p class="skill Linux" data-rating="4"></p></li>
+						<li>Bash<br><p class="skill Bash" data-rating="4"></p></li>
+					</ul>
+				</div>
+			</div>
+			<div class="hobbies">
+				<h2><i class="fa fa-gamepad" style="font-size:30px;color:#3388BB"></i> Hobbies</h2>
+				<div class="hobbies_pics">
+					<img src=pics/bitmoji1547679052.png width="130px" height="130px" alt="bitmoji1547679052"/>		
+					<img src=pics/bitmoji2087788297.png width="130px" height="130px" alt="bitmoji2087788297"/>		
+					<img src=pics/bitmoji959975010.png  width="130px" height="130px" alt="bitmoji959975010"/>		
+					<img src=pics/bitmoji503502530.png  width="130px" height="130px" alt="bitmoji503502530"/>		
+				</div>
+			</div>
+		</div>
+		<div class="licence">
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+			<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+		</div>
+	</body>
 </html>
+
