@@ -47,6 +47,13 @@ h2{
 	font-size: 10px;
 }
 
+.linkedin {
+	Font-Weight:bold;
+	font-style: oblique;
+	color: grey;
+	font-size: 13px;
+}
+
 .sec-droite{
 	margin-left: 100px;
 }
